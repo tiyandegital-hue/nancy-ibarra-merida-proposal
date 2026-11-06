@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El bot de WhatsApp · Nancy Ibarra Salón Spa — Demostración interactiva</title>
+<meta name="description" content="Prueba el asistente de WhatsApp de Nancy Ibarra Salón Spa: reserva una cita, cotiza un servicio o pide tu paquete de novias. Demostración interactiva en Mérida.">
+<meta property="og:title" content="El asistente de WhatsApp que nunca duerme — Nancy Ibarra">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Reserva por WhatsApp</span><span>✦</span><span>Desde 1998</span><span>✦</span><span>Mérida</span><span>✦</span><span>Reserva por WhatsApp</span><span>✦</span><span>Desde 1998</span><span>✦</span><span>Mérida</span><span>✦</span><span>Reserva por WhatsApp</span><span>✦</span><span>Desde 1998</span><span>✦</span><span>Mérida</span><span>✦</span></div></div>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html" aria-label="Nancy Ibarra Salón Spa — Inicio">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span><span class="brand-name">Nancy Ibarra</span><br><span class="brand-sub">Salón &amp; Spa · Mérida</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menú" aria-controls="nav-principal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2B0A2E" stroke-width="2.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="main-nav" id="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="bot.html" aria-current="page">El bot</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="novias-eventos.html">Novias y eventos</a>
+      <a href="resultados.html">Resultados</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <a class="header-phone" href="tel:+529992770631">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0E7C6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+      <span data-phone>+52 999 277 0631</span>
+    </a>
+    <a class="btn btn-pink btn-sm header-cta" href="#" data-wa>Agendar por WhatsApp</a>
+  </div>
+</header>
+
+<main id="contenido">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="sec-head reveal" style="margin-bottom:32px">
+        <p class="eyebrow"><span class="dot">●</span> Tecnología de Nancy Ibarra Salón · Mérida, Yucatán · Demostración interactiva · Mensajes de ejemplo</p>
+        <h1>El asistente de WhatsApp que <em class="accent">nunca duerme.</em></h1>
+        <p class="lead">Pon a prueba la tecnología diseñada para Nancy Ibarra Salón Spa. Mira cómo tus clientas reservan, cotizan y reciben confirmaciones en tiempo real, sin esperar a que alguien conteste.</p>
+      </div>
+      <div class="stat-row reveal" style="margin-bottom:44px">
+        <div class="stat"><strong>Respuesta en segundos</strong><span>Atención inmediata, día y noche</span></div>
+        <div class="stat"><strong>Sin llamadas perdidas</strong><span>Cada mensaje recibe respuesta</span></div>
+        <div class="stat"><strong>Recordatorios automáticos</strong><span>Aviso antes de tu cita</span></div>
+        <div class="stat"><strong>En tu propio número</strong><span>Sin apps nuevas para tu clienta</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMOSTRACIÓN EN VIVO -->
+  <section style="padding-top:0" aria-labelledby="sim-titulo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow"><span class="dot">●</span> Demostración en vivo</p>
+        <h2 id="sim-titulo">Selecciona un escenario de clienta</h2>
+        <p class="lead">Haz clic en cualquiera de las 3 opciones para ver cómo se comporta la conversación del asistente. También puedes escribirle directamente en el chat.</p>
+      </div>
+      <div class="bot-layout">
+        <div class="reveal">
+          <div class="flow-list" role="group" aria-label="Escenarios de demostración">
+            <button class="flow-card" type="button" data-flow="reservar" aria-pressed="true">
+              <span class="flow-tag">Flujo más frecuente</span>
+              <h3>1. Reservar cita inmediata</h3>
+              <p>Ejemplo: Gelish y pedicure spa para el fin de semana. Selección guiada de servicio, día y horario, con confirmación automática y ubicación.</p>
+              <span class="flow-meta"><span>Tiempo estimado: menos de un minuto</span><span>· Auto-agendado</span></span>
+            </button>
+            <button class="flow-card" type="button" data-flow="cotizar" aria-pressed="false">
+              <span class="flow-tag">Servicio especializado</span>
+              <h3>2. Cotizar un servicio específico</h3>
+              <p>Ejemplo: micropigmentación de cejas efecto polvo. Muestra qué incluye el servicio, cuidados previos y opción de agendar valoración.</p>
+              <span class="flow-meta"><span>Con fotos de ejemplo</span><span>· Sin compromiso</span></span>
+            </button>
+            <button class="flow-card" type="button" data-flow="novias" aria-pressed="false">
+              <span class="flow-tag">Alto valor · Bodas</span>
+              <h3>3. Paquete novias y XV años</h3>
+              <p>Ejemplo: prueba + maquillaje de novia + damas a domicilio. Fecha, número de personas y lugar, con propuesta al instante.</p>
+              <span class="flow-meta"><span>Grupos y a domicilio</span><span>· Cotización guiada</span></span>
+            </button>
+          </div>
+          <div class="callout">
+            <strong>Dato clave para tu negocio:</strong> tus clientas escriben cuando les conviene — de noche, en domingo — y quien contesta primero se queda con la cita. El asistente contesta en el momento en que ellas escriben.
+          </div>
+          <div>
+            <h3 style="margin-top:28px">Pruébalo en vivo</h3>
+            <p style="font-size:.95rem;color:var(--muted)">Envía uno de estos comandos rápidos y observa la respuesta en el teléfono.</p>
+            <div class="pills">
+              <button class="pill-btn" type="button" data-quick="ubicacion">¿Dónde están ubicados?</button>
+              <button class="pill-btn" type="button" data-quick="tarjeta">¿Aceptan tarjeta?</button>
+              <button class="pill-btn" type="button" data-quick="domicilio">¿Servicio a domicilio?</button>
+              <button class="pill-btn" type="button" data-quick="balayage">¿Precio del balayage?</button>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="phone" data-chat="full">
+            <div class="phone-screen tall">
+              <div class="chat-head">
+                <span class="avatar" aria-hidden="true">N</span>
+                <span class="who"><strong>Nancy Ibarra · Asistente</strong><span>En línea · Asistente oficial 24/7</span></span>
+                <span class="icons" aria-hidden="true">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+                </span>
+              </div>
+              <div class="chat-body" aria-live="polite"></div>
+              <div class="quick-row"></div>
+              <div class="chat-input">
+                <input type="text" placeholder="Escribe un mensaje…" aria-label="Escribe un mensaje al asistente">
+                <button class="chat-send" type="button" aria-label="Enviar mensaje">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5l18-8.5L3 3.5v7l13 1.5L3 13.5v7z"/></svg>
+                </button>
+              </div>
+              <p class="chat-note">Demostración interactiva — los mensajes son de ejemplo. Para agendar de verdad, <a href="#" data-wa>escríbenos por WhatsApp</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPACIDADES -->
+  <section class="section-dark" aria-labelledby="cap-titulo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow"><span class="dot">●</span> Impacto en la operación diaria</p>
+        <h2 id="cap-titulo">Qué hace el asistente por tu salón</h2>
+        <p class="lead">Diseñado para dueñas de salones y spas que quieren excelencia en la atención, sin vivir pegadas al celular.</p>
+      </div>
+      <div class="cap-grid">
+        <article class="cap reveal">
+          <p class="cap-kicker">01 · Disponibilidad inmediata</p>
+          <h3>Responde 24/7 en segundos</h3>
+          <p>Las clientas suelen escribir tarde en la noche o los domingos, cuando planean sus eventos. El asistente responde al instante.</p>
+          <span class="cap-foot">✓ Atención activa 24/7</span>
+        </article>
+        <article class="cap reveal">
+          <p class="cap-kicker">02 · Cero huecos vacíos</p>
+          <h3>Recordatorios anti-no-show</h3>
+          <p>Envía una confirmación amigable 24 h antes y un recordatorio 2 h antes de tu cita, para que nadie olvide su lugar.</p>
+          <span class="cap-foot">✓ Recordatorios 24 h y 2 h antes</span>
+        </article>
+        <article class="cap reveal">
+          <p class="cap-kicker">03 · Flexibilidad activa</p>
+          <h3>Reagendado inteligente</h3>
+          <p>Si una clienta tiene un imprevisto y avisa por WhatsApp, el asistente le ofrece de inmediato los siguientes horarios disponibles.</p>
+          <span class="cap-foot">✓ Calendario sincronizado</span>
+        </article>
+        <article class="cap reveal">
+          <p class="cap-kicker">04 · Fidelización recurrente</p>
+          <h3>Recuperación de clientas</h3>
+          <p>Detecta a clientas frecuentes que no han vuelto en un tiempo y les envía una invitación para consentirse de nuevo.</p>
+          <span class="cap-foot">✓ Seguimiento automático</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASO / TRANQUILIDAD -->
+  <section aria-labelledby="equipo-titulo">
+    <div class="wrap two-col">
+      <div class="reveal">
+        <p class="eyebrow"><span class="dot">●</span> Tranquilidad para tu equipo</p>
+        <h2 id="equipo-titulo">Tus estilistas atendiendo a sus clientas. El asistente atendiendo las ventas.</h2>
+        <p class="lead">Cuando una estilista está haciendo un corte de precisión o un balayage, no puede contestar el celular. Nuestro asistente clasifica la intención de cada clienta, resuelve dudas sobre servicios y agenda por ella.</p>
+        <div class="stat-row cols-3" style="text-align:left;margin-top:28px">
+          <div class="stat"><strong>Tu propio número</strong><span>De WhatsApp, sin cambiar de línea</span></div>
+          <div class="stat"><strong>Sin apps nuevas</strong><span>Tu clienta no descarga nada</span></div>
+          <div class="stat"><strong>72 horas</strong><span>Tiempo de configuración</span></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="img-frame">
+          <img src="assets/novias.jpg" alt="Novia con peinado recogido y maquillaje en un patio de hacienda en Yucatán — foto de ejemplo" loading="lazy">
+          <span class="img-tag">Foto de ejemplo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFERTA -->
+  <section aria-label="Oferta de implementación" style="padding-top:0">
+    <div class="wrap">
+      <div class="offer reveal">
+        <div>
+          <p class="eyebrow">Oferta de implementación inmediata</p>
+          <h2>Listo para implementar en tu salón por solo $150 USD</h2>
+          <p>Configuración completa y personalizada con el menú, horarios y personal de tu propio salón o spa.</p>
+          <ul class="check-list" style="margin-top:18px;color:#fff">
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2A900" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>Incluye carga de catálogo de servicios y precios</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2A900" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>Respuestas personalizadas al tono de voz de tu marca</span></li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2A900" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span>Soporte y ajustes después del lanzamiento</span></li>
+          </ul>
+        </div>
+        <div style="text-align:right">
+          <p class="price">$150 <small>USD · listo en 72 horas</small></p>
+          <a class="btn btn-gold" href="contacto.html#oferta">Solicitar implementación para mi salón</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span><span class="brand-name">Nancy Ibarra</span><br><span class="brand-sub">Salón &amp; Spa · Mérida</span></span>
+        </a>
+        <p style="margin-top:16px">Santuario boutique de belleza y bienestar en Mérida, Yucatán. Estilismo, spa facial y ritual de cuidado personal.</p>
+        <span class="foot-rating"><span class="stars" aria-hidden="true">★★★★★</span> 4.9 en Google · 98 reseñas <span style="color:#C7AEC8">(según su sitio web)</span></span>
+      </div>
+      <div>
+        <h4>Ubicación y citas</h4>
+        <ul>
+          <li data-address>Calle 21 #315 x 22 y 20, Col. Juan Pablo II, C.P. 97246, Mérida, Yucatán</li>
+          <li>Confirma horario por WhatsApp</li>
+          <li><a href="tel:+529992770631" data-phone>+52 999 277 0631</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="bot.html">El bot — demostración</a></li>
+          <li><a href="servicios.html">Catálogo de servicios</a></li>
+          <li><a href="novias-eventos.html">Paquetes novias y eventos</a></li>
+          <li><a href="resultados.html">Galería de resultados</a></li>
+          <li><a href="contacto.html">Contacto y mapa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tecnología para salones</h4>
+        <p>Asistente de reservas 24/7 para tu propio negocio por solo $150 USD, listo en 72 horas.</p>
+        <p style="margin-top:12px"><a href="contacto.html#oferta">Solicitar el asistente para mi salón →</a></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-year>2026</span> <span data-biz>Nancy Ibarra Salón Spa</span>. Mérida, Yucatán. Todos los derechos reservados.</span>
+      <span>Sitio de demostración — precios y horarios se confirman por WhatsApp.</span>
+      <span><a href="privacidad.html">Aviso de privacidad</a> · <a href="terminos.html">Términos</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="sticky-cta" href="#" data-wa>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  <span>Agendar por WhatsApp</span>
+</a>
+
+<script src="assets/site.js"></script>
+<script src="assets/bot.js"></script>
+</body>
+</html>
